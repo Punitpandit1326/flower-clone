@@ -29,6 +29,10 @@ nav {
 
 }
 
+.footer-social .fab {
+    margin: 0;
+}
+
 .fab:hover {
     color: rgb(250, 26, 26);
     cursor: pointer;
@@ -439,8 +443,13 @@ span {
 /* -----Who Are YOu----- */
 .are {
     /* text-align: right; */
-    margin-left: 800px;
+    text-align: center;
 
+}
+
+.large-banner img {
+    width: 100%;
+    height: auto;
 }
 
 .box {
@@ -988,4 +997,28 @@ p.text-center {
     background-color: #0d9f16;
     border-radius: 50px;
 
+}
+
+@media (max-width: 568px) {
+
+    body {
+        background-color: #000;
+    }
+
+
+    .rozarpay {
+        width: 100%;
+    }
+
+    .work {
+        justify-content: center;
+    }
+
+    .instagramposts {
+        flex-wrap: wrap;
+    }
+
+    .overflow-hidden-sm {
+        overflow: hidden;
+    }
 }
